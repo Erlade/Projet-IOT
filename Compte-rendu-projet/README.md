@@ -2,7 +2,6 @@
 
 ## Sommaire
 - [Compte-rendu Projet IOT](#compte-rendu-projet-iot)
-  - [Sommaire](#sommaire)
   - [Projet KeyPad STM32](#projet-keypad-stm32)
 
 ## Projet KeyPad STM32
