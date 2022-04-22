@@ -6,7 +6,6 @@
 	- [TP1 : Découvertes des Leds et les 5 modes](#tp1--découvertes-des-leds-et-les-5-modes)
 	- [TP2 : Découverte des timers et compteur avec le timer](#tp2--découverte-des-timers-et-compteur-avec-le-timer)
 	- [TP3 : ports série](#tp3--ports-série)
-	- [TP4 : Servomoteurs 180° (pas fait)](#tp4--servomoteurs-180-pas-fait)
 	- [TP5 : ADC (analogic decimal converter)](#tp5--adc-analogic-decimal-converter)
 	- [TP6 : DAC (decimal analogic converter)](#tp6--dac-decimal-analogic-converter)
 
@@ -140,7 +139,7 @@ void TIM7_IRQHandler(void)
 
 ## TP3 : ports série
 
-Dans ce tp nous devions communiquer avec un ordinateur grâce au port série : lorsque l'on branche le microcontroleur à l'ordinateur, dans le gestionnaire de périphériques nous pouvons voir à quel port série la carte a été attribuée, dans mon cas le port COM6:
+Dans ce tp nous devions communiquer avec un ordinateur grâce au port série : lorsque l'on branche le microcontroleur à l'ordinateur, dans le gestionnaire de périphériques nous pouvons voir à quel port série la carte a été attribué, dans mon cas le port COM6:
 
 paramètres putty:
 serial port: COM6
@@ -206,13 +205,6 @@ On utilise la variable "buffer" pour tester la réception, dans notre premier te
 
 et dans le deuxième en essayant le code ci-dessus nous avons eu un problème qui faisait que le microcontroleur ne nous renvoyait que le caractère "b":
 ![](img/putty2.png)
-
-## TP4 : Servomoteurs 180° (pas fait)
-
-A une valeur du PwM il a un angle donné 
-
-relation duty val:
-duty = val*5 + 50
 
 ## TP5 : ADC (analogic decimal converter)
 
